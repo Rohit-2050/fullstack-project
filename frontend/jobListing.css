@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #333;
+  color: white;
+}
+
+#post-job-btn {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.job-listings {
+  max-width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.job-title {
+  margin: 0 0 8px 0;
+}
+
+.job-meta span {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.apply-btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}

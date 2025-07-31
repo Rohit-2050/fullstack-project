@@ -1,0 +1,102 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Screening Results</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    #loading {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: right;">
+  <button id="screenBtn" style="display: none;">Screen Resumes</button>
+</div>
+
+<div id="applicationsContainer"></div>
+
+
+  <script src="screen.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Screening Results</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    #loading, #errorMessage {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding: 50px;
+      color: #555;
+    }
+    #errorMessage {
+        color: red;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">Loading screening results...</div>
+  <div id="errorMessage" style="display: none;"></div>
+  <div id="screenedResults" style="display: none;"></div>
+
+  <script src="screen.js"></script>
+</body>
+</html>

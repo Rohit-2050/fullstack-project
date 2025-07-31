@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+
+<body>
+    <form action="/task" id="jobForm">
+        <label for="title">Job Title</label>
+        <input type="text" id="title" name="title">
+
+        <label for="job description">Job Description</label>
+        <input type="textarea" id="jobDescription" name="jobDescription">
+
+        <label for="experience"> Experience</label>
+        <input type="number" id="experience" name="experience">
+
+        <label for="jobtype">Job Type</label>
+        <input type="text" id="jobType" name="jobType">
+
+        <label for="category">category</label>
+        <input type="text" id="category" name="category">
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+
+        <label for="deadline">Application Deadline</label>
+        <input type="date"  id="deadline" name="deadline">
+        <br>
+        <button type="submit">Post </button>
+    </form>
+    <script src="job.js"></script>
+</body>
+
+</html>
